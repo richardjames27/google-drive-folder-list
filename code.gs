@@ -23,7 +23,6 @@ function listFolders(folder) {
         } catch (error) {
           var owner = 'not found';
         }
-        //getLooseFiles(name, sheet);
         //console.log(name)
         //console.log(path)
         sheet.appendRow([path, name.getUrl(), name.getName(), owner])
